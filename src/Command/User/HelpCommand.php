@@ -50,9 +50,8 @@ class HelpCommand extends UserCommand
         }
 
         $text = Emoji::wavingHandSign() . ' ';
-        $text .= '<b>' . __('Hi!') . '</b>' . PHP_EOL;
-        $text .= __('To begin, start a message with {USAGE} in any of your chats or click the {BUTTON} button and then select a chat.', ['{USAGE}' => '<b>\'@' . $this->getTelegram()->getBotUsername() . ' ...\'</b>', '{BUTTON}' => '<b>\'' . __('Play') . '\'</b>']) . PHP_EOL . PHP_EOL;
-        $text .= __('This bot is open source - click the {BUTTON} button to go the repository.', ['{BUTTON}' => '<b>\'Github\'</b>']) . ' <b>' . __('Please report all issues there!') . '</b>';
+        $text .= '<b>' . __('Hola!') . '</b>' . PHP_EOL;
+        $text .= __('Para empezar, escribe {USAGE} en cualquiera de tus chats o haz click en {BUTTON} y luego selecciona el chat.', ['{USAGE}' => '<b>\'@' . $this->getTelegram()->getBotUsername() . ' ...\'</b>', '{BUTTON}' => '<b>\'' . __('Play') . '\'</b>']) . PHP_EOL . PHP_EOL;
 
         $data = [
             'chat_id'                  => $chat_id,
@@ -100,8 +99,8 @@ class HelpCommand extends UserCommand
                 ),
                 new InlineKeyboardButton(
                     [
-                        'text' => 'Github ' . Emoji::bookmark(),
-                        'url'  => 'https://github.com/jacklul/inlinegamesbot/',
+                        'text' => 'IotPartners.com ' . Emoji::bookmark(),
+                        'url'  => 'http://www.iotpartners.com/',
                     ]
                 ),
             ],

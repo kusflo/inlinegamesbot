@@ -15,7 +15,6 @@
     "ext-gettext": "*",
     "ext-mbstring": "*",
     "ext-pdo": "*",
-    "ext-pgsql": "*",
     "ext-zip": "*",
     "ad7six/dsn": "^0.4.0",
     "gettext/gettext": "^4.3.0",

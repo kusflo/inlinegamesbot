@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "cb4dfbba03ddf8598508f91378090ca8",
+    "content-hash": "4136df32a53ee340bc64d390b806109b",
     "packages": [
         {
             "name": "ad7six/dsn",
@@ -824,7 +824,6 @@
         "ext-gettext": "*",
         "ext-mbstring": "*",
         "ext-pdo": "*",
-        "ext-pgsql": "*",
         "ext-zip": "*"
     },
     "platform-dev": []

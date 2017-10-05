@@ -34,7 +34,7 @@ msgid "This game session is empty."
 msgstr ""
 
 #: Command/User/HelpCommand.php:53
-msgid "Hi!"
+msgid "Hola!"
 msgstr ""
 
 #: Command/User/HelpCommand.php:54 Command/User/HelpCommand.php:89
@@ -44,11 +44,11 @@ msgid "Play"
 msgstr ""
 
 #: Command/User/HelpCommand.php:54
-msgid "To begin, start a message with {USAGE} in any of your chats or click the {BUTTON} button and then select a chat."
+msgid "Para comenzar, escribe {USAGE} en cualquiera de tus chats o haz click en {BUTTON} y luego selecciona el chat."
 msgstr ""
 
 #: Command/User/HelpCommand.php:55
-msgid "This bot is open source - click the {BUTTON} button to go the repository."
+msgid "Este bot es open source, haz click en {BUTTON} para ir al respositorio."
 msgstr ""
 
 #: Command/User/HelpCommand.php:55
